@@ -4,3 +4,12 @@ form{
     width: 50%;
     margin: auto;
 }
+#submit{
+    width: 60px;
+    background-color: white;
+    
+}
+#submit:hover{
+    color: brown;
+    background-color: aquamarine;
+}
