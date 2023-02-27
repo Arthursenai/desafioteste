@@ -13,3 +13,9 @@ form{
     color: brown;
     background-color: aquamarine;
 }
+#text{
+    border-radius: 5px;
+}
+#email{
+    border-radius: 5px;
+}
