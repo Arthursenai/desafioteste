@@ -14,18 +14,18 @@ form {
 
 #submit:hover {
     color: brown;
-    background-color: aquamarine;
+    background-color: gray;
 }
 
 #text {
     border-radius: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
     
 }
 
 #email{
     border-radius: 10px;
-    
+    margin-bottom: 10px;
 }
 
 #text:focus {
@@ -36,4 +36,12 @@ form {
 #email:focus {
     outline: 0ch;
     border-style: none;
+}
+#password{
+    border-radius: 10px;
+}
+#password:focus{
+    outline: 0;
+    border-style: none;
+
 }
