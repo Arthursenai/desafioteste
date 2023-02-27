@@ -1,21 +1,39 @@
-form{
+form {
     display: flex;
     flex-direction: column;
     width: 50%;
     margin: auto;
 }
-#submit{
+
+#submit {
     width: 60px;
     background-color: white;
-    
+    margin: auto;
+
 }
-#submit:hover{
+
+#submit:hover {
     color: brown;
     background-color: aquamarine;
 }
-#text{
-    border-radius: 5px;
+
+#text {
+    border-radius: 10px;
+    margin-bottom: 30px;
+    
 }
+
 #email{
-    border-radius: 5px;
+    border-radius: 10px;
+    
+}
+
+#text:focus {
+    outline: 0ch;
+    border-style: none;
+}
+
+#email:focus {
+    outline: 0ch;
+    border-style: none;
 }
